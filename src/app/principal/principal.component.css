@@ -1,0 +1,33 @@
+.contenedor { 
+
+}
+
+.caja {
+    width: 100%; /* Imagen reponsiva*/
+    height: 100vh; /* Imagen reponsiva*/
+    background: url('https://placeimg.com/640/480/any'); /* Imagen aleatoria */
+    /* background: url('http://lorempixel.com/1280/680'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* cover: Tamaño del div que la contiene */
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.texto {
+    width: 100%;
+    /* height: auto; */
+
+    /* opacidad */
+    /* background-color: rgba(255, 0, 0, 0.25); */
+    background-color: rgba(0, 0, 0, 0.5); 
+    align-self: flex-end; /* Alineación respecto a la imagen */
+    /* margin-bottom: auto; */
+    padding: 25px;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+
+.texto h2 {
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+.navBar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #F61627;
+}
+
+.logo {
+  margin:auto;
+  cursor: pointer;
+}
+
+.miMenu {
+  display: flex;
+  justify-content: flex-end; /* justifica en horizontal */
+  align-items: center; /* justifica en vertical */
+  width: 100%;
+  height: 100px;
+  align-self: flex-end;
+}
+
+ul li {
+  padding-right: 50px;
+  display: inline-block;
+}
+
+a {
+  font-family: 'Quicksand', sans-serif;
+  color: #FFF5F1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li a:hover {
+  /* background: #FF4A43; */
+  /* background: #CF0918; */
+  /* background: #DB0A1A; */
+  /* background: #E10717; */
+  /* background: #F40618; */
+  /* background: #F10214; */ /* El mas similar al navbar */
+  background:#EB0214;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 7px #FFF5F2;
+}
