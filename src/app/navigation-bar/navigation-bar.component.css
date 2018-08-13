@@ -2,8 +2,7 @@
   display: flex;
   width: 100%;
   height: 100px;
-  /* background-color: #F61627; */
-  background-color: lightgreen;
+  background-color: #F61627;
 }
 
 .logo {
