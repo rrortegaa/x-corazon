@@ -2,12 +2,17 @@
   display: flex;
   width: 100%;
   height: 100px;
-  background-color: #F61627;
+  /* background-color: #F61627; */
+  background-color: #1CA7BE; 
 }
 
 .logo {
   margin:auto;
   cursor: pointer;
+}
+
+.imagen {
+  transform: scaleX(-1);
 }
 
 .miMenu {
@@ -38,7 +43,8 @@ li a:hover {
   /* background: #E10717; */
   /* background: #F40618; */
   /* background: #F10214; */ /* El mas similar al navbar */
-  background:#EB0214;
+  /* background:rgb(237, 74, 79); */
+  background-color: rgb(19, 150, 173);
   padding: 20px;
   border-radius: 7px;
   box-shadow: 1px 1px 7px #FFF5F2;

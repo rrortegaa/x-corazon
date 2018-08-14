@@ -1,14 +1,11 @@
 footer {
     /* background-color: #ed5f5f; */
-    background-color: #F61627;
+    /* background-color: #F61627; */
+    background-color: #1CA7BE;
     width: 100%;
     height: 100px;
     align-self: flex-end;
   }
-/* 
-  li {
-    color:white;
-  } */
 
   footer {
     display: flex;
@@ -25,6 +22,9 @@ footer {
   }
   
   a {
+    display: flex;
+    /* justify-content: center; */
+    align-items: baseline;
     font-family: 'Quicksand', sans-serif;
     color: #FFF5F1;
     font-weight: bold;
@@ -38,8 +38,17 @@ footer {
     /* background: #E10717; */
     /* background: #F40618; */
     /* background: #F10214; */ /* El mas similar al navbar */
-    background:#EB0214;
+    /* background:#EB0214; */
+    background-color: rgb(19, 150, 173);
     padding: 20px;
     border-radius: 7px;
     box-shadow: 1px 1px 7px #FFF5F2;
+  }
+
+  img {
+    width: 35px;
+    height: 35px;
+    filter: invert(1);
+    cursor: pointer;
+    align-self: baseline;
   }
