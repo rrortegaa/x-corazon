@@ -1,7 +1,22 @@
 #map { 
   height: 400px;
-  width: 100%;
-  margin: 35px;
+  width: 90%;
+  margin: auto;
+}
+
+.contClick {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+    margin: auto;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    border-radius: 7px;
+    background:#EB0214;
+  color: #ffffff;
 }
 
 h1 {

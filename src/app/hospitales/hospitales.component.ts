@@ -60,7 +60,7 @@ export class HospitalesComponent implements OnInit {
       navigator.geolocation.getCurrentPosition(function (position){
         var ubicacionicon = L.icon({
 
-          iconUrl: 'assets/ubicacion.svg',
+          iconUrl: 'assets/ubicacion2.svg',
     
           iconSize: [30, 45], // size of the icon
           shadowSize: [50, 64], // size of the shadow
